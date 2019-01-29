@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>boomSearch</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Boom Search Beupy Project Open Source" name="BeupyTech">
+    <meta content="BeupyTech" name="BeupyDev">
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <meta charset='utf-8'>
+    <link href="style.css" rel="stylesheet">
+    <script src='external.js'></script>
+  </head>
+  <body>
+  <div id="mainContainer">
+      <div class="row mainContainer">
+          <div class="col-md-12 col-lg-12 form-wrapper"> 
+            <div class="form-head">
+                <div class="iconArea">
+                   <h2 class="mbr-section-subtitle form-subtitle mbr-fonts-style align-center pb-3 display-4 text-center">
+                     <span class='upper'>Boom</span><span class="lower">Search</span>
+                   </h2>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 col-lg-12 form-wrapper"> 
+            <div class="form1" data-form-type="formoid">
+              <form>
+                <div class="input-wrap" data-for="firstname">
+                    <input type="text" class="form-control query" required="" id="query">
+                    <p id="error" class="text-center"></p>
+                </div>
+             </form>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 col-lg-12 text-center"> 
+                <button type="submit" class="btn btn-lg btn-warning" id="web">Web</button>
+                <button type="submit" class="btn btn-lg btn-danger" id="video">Video</button>
+          </div>
+      </div>
+  </div>
+  <div id="resultContainer">
+      <div class="row">
+          <div class="col-md-12 col-lg-12 text-center"> 
+           <section id="result">
+              <div id="resultArea" class="result"></div>
+              <navigation>
+                  <button id="prev">&laquo; Previous</button>
+                  <button id="next">Next &raquo;</button>
+              </navigation>
+            </section>
+          </div>
+      </div>
+  </div>
+  <footer>
+      <div class="row no-gutter">
+          <div class="col-md-4 col-lg-4 text-center" id="iconArea"> 
+             <img src="im/icon.jpg" alt="Boom">
+             <blockquote class="slo">Representing Nation</blockquote>
+          </div>
+          <div class="col-md-4 col-lg-4 text-center" id="companyArea"> 
+            <p id="boom">Boom &copy; 2017 </p>
+            <p id="beupy">Developed By Beupy</p>  
+          </div>
+          <div class="col-md-4 col-lg-4 text-center" id="impLinks"> 
+             <aside>
+              <p class="bow">Supported Browser</p>
+              <img src="im/rom.jpg" alt="browser-chrome">
+              <img src="im/fire.jpg" alt="browser-firefox">
+              <img src="im/opp.jpg" alt="browser-opera">
+              <img src="im/ie.png" alt="browser-ie">
+             </aside>
+             <p class="fooPre">Preview Version</p>
+             <a id="updates" href="process.html">Process</a>
+          </div>
+      </div>
+  </footer>
+  <script src="vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="dom.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
